@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1e1e1e;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    padding: 2rem 2vw 3rem;
+}
+
+#title {
+    background-image: url("/images/hero.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.title--header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    /* background-color: orange; */
+}
+
+.logo-image {
+    width: 8rem;
+    /* width: 7vw; */
+}
+
+.logo-title {
+    width: 17rem;
+    /* width: 15vw; */
+}
+
+.nav-items {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    padding: 0;
+    margin: 0 2vw;
+    /* background-color: red; */
+}
+
+.nav-item a{
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.switcher {
+    color: white;
+    background-color: transparent;
+    font-size: 1rem;
+    border: none;
+    /* margin-left: 2rem; */
+  }
+  
+  .option {
+    color: black;
+  }
+
+  .title--article {
+    width: 45%;
+    margin: 2rem 0 4rem;
+  }
+
+  .title--article p {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    text-align: justify;
+  }
+
+  .white-button {
+    padding: 1rem;
+    border: none;
+    background-color: white;
+    width: 45%;
+}
+
+.white-button a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    font-size: 0.8rem;
+    font-weight: 700;
+  }
+
+  .black-arrow {
+    height: 0.8rem;
+  }

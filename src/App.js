@@ -1,10 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import Title from "./components/title/Title.js";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <Title />
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -17,9 +18,9 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
     </div>
   );
 }
 
-export default App;
+
