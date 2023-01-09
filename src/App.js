@@ -14,15 +14,12 @@ export default function App() {
   const contentTranslation = content[language];
   const {title} = contentTranslation;
   
-  // console.log(title);
-
   return (
     <div className="App">
       <Title 
         handleChange={setStateApp}
         title={title}
       />
-      
     </div>
   );
 }

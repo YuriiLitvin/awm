@@ -2,8 +2,6 @@ import React from "react";
 
 export default function NavBar(props) {
     
-    console.log(props.navItems);
-    
     return (
         <ul className="nav-items">
             <li className="nav-item"><a href="">{props.navItems[0]}</a></li>
