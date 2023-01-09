@@ -1,7 +1,7 @@
 export default {
     "ua": {
         "title": {
-            "logoText": "/images/titleUA.png",
+            "logoText": "titleUA.png",
             "navItems": ["ПРОЄКТИ", "ВНЕСОК", "КОНТАКТИ"],
             "titleArticle": 
                 [
@@ -15,7 +15,7 @@ export default {
     },
     "en": {
         "title": {
-            "logoText": "/images/titleEN.png",
+            "logoText": "titleEN.png",
             "navItems": ["PROJECTS", "DONATE", "CONTACTS"],
             "titleArticle": 
                 [

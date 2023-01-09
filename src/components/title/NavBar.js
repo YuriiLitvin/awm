@@ -1,11 +1,14 @@
 import React from "react";
 
-export default function NavBar() {
+export default function NavBar(props) {
+    
+    console.log(props.navItems);
+    
     return (
         <ul className="nav-items">
-            <li className="nav-item"><a href="">ПРОЄКТИ</a></li>
-            <li className="nav-item"><a href="">ВНЕСОК</a></li>
-            <li className="nav-item"><a href="">КОНТАКТИ</a></li>
+            <li className="nav-item"><a href="">{props.navItems[0]}</a></li>
+            <li className="nav-item"><a href="">{props.navItems[1]}</a></li>
+            <li className="nav-item"><a href="">{props.navItems[2]}</a></li>
         </ul>
     );
 }

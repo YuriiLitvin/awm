@@ -9,7 +9,6 @@ export default function Header(props) {
         props.handleChange(event.target.value);
     }
     
-
     return (
         <div className="title--header">
             <Logo 
