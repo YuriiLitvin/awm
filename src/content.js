@@ -11,6 +11,13 @@ export default {
                     "Переможемо їх РАЗОМ"                    
                 ],
             "whiteButtonText": "ЗРОБИТИ ВНЕСОК"
+        },
+        "mission": {
+            "paragraph": [
+                "ГО «Антивоєнний Рух України» протягом всього свого існування поширювала інформацію серед молоді про Світові Війни, їх значення, наслідки для світу й України та недопущення повторення. На жаль, війна знову прийшла на нашу землю. Ми мусимо показати ворогу єдність та мужність українського народу.",
+                "Злочини проти людяності, які російська армія вчиняє до нашого народу показує усьому світу, справжнє обличчя держави-терориста та важливість допомоги Україні. Разом ми закінчимо війну в Європі.",
+                "Армія, медицина, постраждалі від війни діти, переселенці – їм всім потрібна наша допомога та підтримка."
+            ]
         }
     },
     "en": {
@@ -25,6 +32,13 @@ export default {
                     "We will win then TOGETHER!"                    
                 ],
             "whiteButtonText": "DONATE"
+        },
+        "mission": {
+            "paragraph": [
+                "The NGO “Anti-war Movement of Ukraine” throughout its existence spread information among young people about World Wars, their significance, consequences for the world and Ukraine and prevention of repetition. Unfortunately, the war came to our land again. We must show the enemy the unity and courage of the Ukrainian people.",
+                "Crimes against humanity committed by the Russian army to our people show the whole world, the real face of the terrorist state and the importance of assistance to Ukraine. Together we will end the war in Europe.",
+                "Army, medicine, children affected by war, immigrants – they all need our help and support."
+            ]
         }
     }
 

@@ -1,7 +1,8 @@
 import React from "react";
 import './App.css';
-import Title from "./components/title/Title.js";
 import content from "./content.js";
+import Title from "./components/title/Title.js";
+import Mission from "./components/mission/Mission.js";
 
 export default function App() {
   
@@ -12,13 +13,16 @@ export default function App() {
   }
 
   const contentTranslation = content[language];
-  const {title} = contentTranslation;
+  const {title, mission} = contentTranslation;
   
   return (
     <div className="App">
       <Title 
         handleChange={setStateApp}
         title={title}
+      />
+      <Mission 
+        missionContent={mission}
       />
     </div>
   );
