@@ -191,7 +191,7 @@ a {
 }
 
 .point--content {
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-align: justify;
     padding: 0 1rem;
 }
@@ -207,7 +207,6 @@ a {
 .point--map {
     color: black;
     display: block;
-    font-size: 0.8rem;
     font-weight: bold;
     border: none;
     border-radius: 0 0 0.5rem 0.5rem;
@@ -216,6 +215,7 @@ a {
 }
 
 .map-button-text {
+    font-size: 0.8rem;
     margin: 0 4rem;
 }
 
@@ -252,7 +252,6 @@ a {
     border: none;
     width: 10rem;
     padding: 0.9rem 0;
-    font-family: "Arial";
     font-size: 0.8rem;
     font-weight: bold;
     text-align: center; 
