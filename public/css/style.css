@@ -15,7 +15,7 @@ a {
 .container {
     width: 100%;
     height: auto;
-    padding: 0 3rem 5rem;
+    padding: 0 3rem 2rem;
 }
 
 #title {
@@ -99,11 +99,11 @@ a {
     color: black;
     font-size: 0.8rem;
     font-weight: 700;
-  }
+}
 
-  .black-arrow {
+.black-arrow {
     height: 0.8rem;
-  }
+}
 
   /* @media only screen and (max-width: 720px) {
     .title-container {
@@ -111,44 +111,44 @@ a {
     }
   } */
 
-  #mission {
+#mission {
     background-color: #0057B8;
     background-image: url("/images/war-machine.png");
     background-repeat: no-repeat;
     background-size: 50% 100%;
     display: flex;
     padding: 0;
-  }
+}
 
-  .column {
+.column {
     width: 50%;
-  }
+}
 
-  .picture {
+.picture {
     display: flex;
     justify-content: right;
     align-items: flex-end;
-  }
+}
   
-  .picture img {
+.picture img {
     width: 50%;
     margin: 2rem;
-  }
+}
 
-  .content {
+.content {
     padding: 3rem 0 6rem;
-  }
+}
 
-  .paragraph {
+.paragraph {
     width: 70%;
     margin: 3rem auto;
-  }
+}
 
-  .white {
+.white {
     text-align: justify;
-  }
+}
 
-  .black {
+.black {
     color: black;
     background-color: white;
     border-radius: 0.5rem;
@@ -157,4 +157,109 @@ a {
     font-weight: 700;
     line-height: 1.1rem;
     text-transform: uppercase;
+}
+
+#point {
+    color: black;
+    background-color: #ffd700;
+    padding-top: 2rem;
+}
+
+.point--title,
+.point--subtitle {
+    text-align: center;
+}
+
+.point--title {
+    margin-bottom: 1rem;
+}
+
+.point--subtitle {
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+}
+
+.point--article,
+.point--map {
+    background-color: white;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.point--img {
+    width: 100%;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.point--content {
+    font-size: 1.2rem;
+    text-align: justify;
+    padding: 0 1rem;
+}
+
+.top {
+    margin: 0 0 1rem;
+}
+
+.bottom {
+    margin: 0 0 0.2rem;
+}
+
+.point--map {
+    color: black;
+    display: block;
+    font-size: 0.8rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 0 0 0.5rem 0.5rem;
+    padding: 1rem;
+    margin-bottom: 2rem; 
+}
+
+.map-button-text {
+    margin: 0 4rem;
+}
+
+.subscription-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 5rem 0 1rem;
+    height: 4rem;
   }
+  
+  .subscription {
+    display: flex;
+  }
+  
+  .point--email {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 1rem 0 0;
+    margin-right: 0.5rem;
+  }
+  
+  .point--email::placeholder {
+    color: black;
+    font-size: 1.3rem;
+    font-family: "Arial";
+  }
+  
+  .subscribe-button,
+  .messenger {
+    color: black;
+    background-color: white;
+    border: none;
+    width: 10rem;
+    padding: 0.9rem 0;
+    font-family: "Arial";
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-align: center; 
+  }
+  
+  .point--messengers {
+    display: flex;
+    gap: 0.5rem;
+  }
+  

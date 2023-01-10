@@ -18,6 +18,16 @@ export default {
                 "Злочини проти людяності, які російська армія вчиняє до нашого народу показує усьому світу, справжнє обличчя держави-терориста та важливість допомоги Україні. Разом ми закінчимо війну в Європі.",
                 "Армія, медицина, постраждалі від війни діти, переселенці – їм всім потрібна наша допомога та підтримка."
             ]
+        },
+        "point": {
+            "title": "ПУНКТ НЕЗЛАМНОСТІ",
+            "subtitle": "Місце твоєї безпеки під час тривалого відключення електроенергії чи тепла",
+            "paragraph": [
+                "План росії – будь-що залишити жителів України без електроенергії, світла та тепла. У разі тривалого аварійного відключення електроенергії, Пункти Незламності стануть острівцем безпеки, стабільності, тепла та нашої єдності, які функціонуватимуть цілодобово і безкоштовно для тимчасового перебування.",
+                "Рекомендуємо вже зараз записати адреси найближчих Пунктів Незламності на випадок аварійного відключення зв’язку чи електроенергії."
+            ],
+            "mapButtonText": "ДИВІТЬСЯ МАПУ",
+            "subscribeButtonText": "ПІДПИСУЙТЕСЬ"
         }
     },
     "en": {
@@ -39,6 +49,16 @@ export default {
                 "Crimes against humanity committed by the Russian army to our people show the whole world, the real face of the terrorist state and the importance of assistance to Ukraine. Together we will end the war in Europe.",
                 "Army, medicine, children affected by war, immigrants – they all need our help and support."
             ]
+        },
+        "point": {
+            "title": "POINT OF INVINCIBILITY",
+            "subtitle": "Your place of safety during a long power or heat outage",
+            "paragraph": [
+                "Russia's plan is to leave residents of Ukraine without electricity, light and heat. In the event of a prolonged emergency power outage, the Points of Indestructibility will become an island of security, stability, heat and our unity, which will function round the clock and free of charge for a temporary stay. ",
+                "We recommend writing down the addresses of the nearest Unbreakable Points right now in case of an emergency disconnection of communication or electricity."
+            ],
+            "mapButtonText": "ONLINE MAP",
+            "subscribeButtonText": "SUBSCRIBE"
         }
     }
 

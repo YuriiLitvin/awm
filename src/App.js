@@ -3,6 +3,7 @@ import './App.css';
 import content from "./content.js";
 import Title from "./components/title/Title.js";
 import Mission from "./components/mission/Mission.js";
+import Point from "./components/point/Point.js";
 
 export default function App() {
   
@@ -13,7 +14,7 @@ export default function App() {
   }
 
   const contentTranslation = content[language];
-  const {title, mission} = contentTranslation;
+  const {title, mission, point} = contentTranslation;
   
   return (
     <div className="App">
@@ -23,6 +24,9 @@ export default function App() {
       />
       <Mission 
         missionContent={mission}
+      />
+      <Point 
+        pointContent={point}
       />
     </div>
   );
