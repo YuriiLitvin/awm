@@ -10,6 +10,7 @@ body {
 
 a {
     text-decoration: none;
+    font-size: 0.8rem;
 }
 
 .container {
@@ -97,7 +98,7 @@ a {
     justify-content: space-between;
     align-items: center;
     color: black;
-    font-size: 0.8rem;
+    /* font-size: 0.8rem; */
     font-weight: 700;
 }
 
@@ -216,7 +217,7 @@ a {
 }
 
 .map-button-text {
-    font-size: 0.8rem;
+    /* font-size: 0.8rem; */
     margin: 0 4rem;
 }
 
@@ -243,7 +244,7 @@ a {
   .point--email::placeholder {
     color: black;
     font-size: 1.3rem;
-    font-family: "Arial";
+    /* font-family: "Arial"; */
   }
   
   .subscribe-button,
