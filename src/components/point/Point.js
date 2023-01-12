@@ -9,7 +9,7 @@ export default function Point(props) {
             <h2 className="point--title">{title}</h2>
             <p className="point--subtitle">{subtitle}</p>
             <div className="point--article">
-                <img className="point--img" src={process.env.PUBLIC_URL + "/images/point.png"} alt="point of invincibility" />
+                <img className="point--img" src={process.env.PUBLIC_URL + "/images/point2.png"} alt="point of invincibility" />
                 <p className="point--content top">{paragraph[0]}</p>
                 <p className="point--content bottom">{paragraph[1]}</p>
             </div>
