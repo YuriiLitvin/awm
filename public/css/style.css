@@ -172,12 +172,12 @@ a {
 
 .point--title {
     margin-bottom: 1rem;
-    /* font-size: 1.4rem; */
+    font-size: 1.4rem;
 }
 
 .point--subtitle {
     margin-bottom: 2rem;
-    /* font-size: 1rem; */
+    font-size: 1rem;
 }
 
 .point--article,
@@ -192,7 +192,7 @@ a {
 }
 
 .point--content {
-    /* font-size: 1rem; */
+    font-size: 1rem;
     padding: 0 1rem;
     text-align: justify;
 }

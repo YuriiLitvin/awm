@@ -1,4 +1,5 @@
 import React from "react";
+import PointArticle from "./PointArticle.js";
 
 export default function Point(props) {
     
@@ -8,11 +9,9 @@ export default function Point(props) {
         <div id="point" className="container">
             <h2 className="point--title">{title}</h2>
             <p className="point--subtitle">{subtitle}</p>
-            <div className="point--article">
-                <img className="point--img" src={process.env.PUBLIC_URL + "/images/point2.png"} alt="point of invincibility" />
-                <p className="point--content top">{paragraph[0]}</p>
-                <p className="point--content bottom">{paragraph[1]}</p>
-            </div>
+            <PointArticle 
+                paragraph={paragraph}
+            />
             <a className="point--map" href="">
                 <span className="map-button-text">{mapButtonText}</span>
                 <img className="black-arrow" src={process.env.PUBLIC_URL + "/images/black-arrow.png"} />
